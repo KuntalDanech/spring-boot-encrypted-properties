@@ -1,0 +1,12 @@
+## Actual property value is 123456789110
+app:
+  myname: ENC(TIOxcBIJWmfT21hBvVmbtgtU1s1010Zs)
+
+## Below two properties are compulsory from 3.0 version of jasypt-spring-boot-starter
+## 1. algorithm: PBEWithMD5AndDES
+## 2. iv-generator-classname: org.jasypt.iv.NoIvGenerator
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+    password: 12345678
