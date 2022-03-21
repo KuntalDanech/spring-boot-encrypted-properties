@@ -32,5 +32,10 @@ public class Application {
 		// We will get actual properties in runtime
 		return value;
 	}
+	@GetMapping("test")
+	public String test() {
+		// We will get actual properties in runtime
+		return value;
+	}
 
 }
