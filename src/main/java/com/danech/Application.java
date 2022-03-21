@@ -24,6 +24,12 @@ public class Application {
 	@GetMapping("welcome")
 	public String welcome() {
 		// We will get actual properties in runtime
+		// Hello this is comment for commit change
+		return value;
+	}
+	@GetMapping("hello")
+	public String hello() {
+		// We will get actual properties in runtime
 		return value;
 	}
 
